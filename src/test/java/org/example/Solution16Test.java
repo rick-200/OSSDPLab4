@@ -53,9 +53,4 @@ public class Solution16Test {
         String result = new Solution16().largestNumber(nums);
         assertEquals("987651324567890124356789012354678901234567890", result);
     }
-    //故意失败
-    @Test
-    public void failure() {
-        fail();
-    }
 }
