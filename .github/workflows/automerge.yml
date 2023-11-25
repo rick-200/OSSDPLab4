@@ -21,7 +21,6 @@ on:
 jobs:
   automerge:
     runs-on: ubuntu-latest
-    needs: test
     permissions:
       contents: write
     steps:
