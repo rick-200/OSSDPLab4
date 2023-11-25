@@ -60,4 +60,11 @@ public class Solution16Test {
         String result = new Solution16().largestNumber(nums);
         assertEquals("987651324567890124356789012354678901234567890", result);
     }
+
+    @Test
+    public void test7() {
+        int[] nums = {1234567890, 1324567890, 1243567890, 1235467890, 5, 6, 7, 8, 9};
+        String result = new Solution16().largestNumber(nums);
+        assertEquals("987651324567890124356789012354678901234567890", result);
+    }
 }
